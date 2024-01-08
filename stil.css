@@ -9,19 +9,24 @@
       height: 430px;
   }
     
+  body {
+      background: rgb(17, 55, 55);
+      width: 100%;
+      height: 100%;
+  
+  }
   .root{ 
       position: relative;
       width: 100%;
-      height: 100%;
+      height: 100vh;
   }
   .root:before {
-      content: "  ";
+      content: " ";
       width: 100%;
-      height: 1342px;
+      height: 100%;
       position: absolute;
-      background-image: url(karınca.gif);
+      background-image: url("/karınca.gif");
       opacity: 0.25;
-      z-index: 99;
   }
   .container{
       display: flex;
